@@ -1,0 +1,61 @@
+<html>
+
+<head>
+<title>
+Haha ! You are a dirty cheater. (Like me)
+</title>
+
+<script language="JavaScript">
+massage="ป.ล. ถ้ามีสูตรเพิ่มก็ส่ง mail มาบอกกันได้นะครับ";
+numblank=50;
+direction=true;
+
+function scroll()
+{
+display=massage;
+if (direction) {
+
+   for (i=1;i<=numblank;i++) {display=' '+display}
+   window.defaultStatus=display;
+   numblank--;
+   if (numblank<=0)  {numblank=0;direction=0}
+}
+	else
+{
+   for (i=0;i<=numblank;i++) {display=' '+display}
+
+   window.defaultStatus=display;
+   numblank++;
+
+   if (numblank>=50)  {numblank=50;direction=1}
+
+}
+timevar=window.setTimeout("scroll()",100)
+}
+</script>
+
+</head>
+
+
+<noscript>
+<body>
+</noscript>
+</body>
+
+
+<body onload="scroll()" background="bgsudyod.jpg">
+
+<center>
+
+<table border=0 width=85%>
+<tr><td>
+<iframe src="cheatlist.html" height="300" width="200"></iframe>
+</td><td>
+<iframe width="425" height="300" src="cheatr.html" name="cheat"></iframe>
+</table>
+
+
+<comment>If You don't open with Internet Explorer (4.0 and up)<a href="chnie.html"> click here</a></comment>
+</center>
+</body>
+</html>
